@@ -5,7 +5,7 @@ import Storytelling from "./pages/Storytelling/Storytelling";
 import About from "./pages/About/About";
 
 //|| LIBRARY
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 // || STYLE
 import "./App.css";
@@ -13,14 +13,14 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Router basename="/spatialcitizen-semarang">
+      <HashRouter basename="/">
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
           <Route path="/storytelling" element={<Storytelling />} />
           <Route path="/map" element={<Map />} />
           <Route path="/about" element={<About />} />
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
