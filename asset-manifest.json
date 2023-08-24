@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spatialcitizen-semarang/static/css/main.e4333be7.css",
-    "main.js": "/spatialcitizen-semarang/static/js/main.74f7592d.js",
+    "main.js": "/spatialcitizen-semarang/static/js/main.b3a62b5b.js",
     "static/js/483.b5dc3184.chunk.js": "/spatialcitizen-semarang/static/js/483.b5dc3184.chunk.js",
     "static/js/787.fefc0f35.chunk.js": "/spatialcitizen-semarang/static/js/787.fefc0f35.chunk.js",
     "static/media/poi-semarang.geojson": "/spatialcitizen-semarang/static/media/poi-semarang.87773fbafbd2ccba5df8.geojson",
@@ -14,12 +14,12 @@
     "index.html": "/spatialcitizen-semarang/index.html",
     "static/media/layer.svg": "/spatialcitizen-semarang/static/media/layer.e3843816f9e1b0cc5e4ba24cccf48b21.svg",
     "main.e4333be7.css.map": "/spatialcitizen-semarang/static/css/main.e4333be7.css.map",
-    "main.74f7592d.js.map": "/spatialcitizen-semarang/static/js/main.74f7592d.js.map",
+    "main.b3a62b5b.js.map": "/spatialcitizen-semarang/static/js/main.b3a62b5b.js.map",
     "483.b5dc3184.chunk.js.map": "/spatialcitizen-semarang/static/js/483.b5dc3184.chunk.js.map",
     "787.fefc0f35.chunk.js.map": "/spatialcitizen-semarang/static/js/787.fefc0f35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4333be7.css",
-    "static/js/main.74f7592d.js"
+    "static/js/main.b3a62b5b.js"
   ]
 }
