@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router basename="spatialcitizen-semarang">
         <Routes>
-          <Route exact path="/spatialcitizen-semarang" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/storytelling" element={<Storytelling />} />
           <Route path="/map" element={<Map />} />
           <Route path="/about" element={<About />} />
