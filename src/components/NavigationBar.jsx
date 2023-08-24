@@ -27,10 +27,10 @@ const NavigationBar = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="ms-auto fw-semibold">
-                <Nav.Link href="/#">Home</Nav.Link>
-                <Nav.Link href="/#/map">Map</Nav.Link>
-                <Nav.Link href="/#/storytelling">Storytelling</Nav.Link>
-                <Nav.Link href="/#/about">About</Nav.Link>
+                <Nav.Link href="/spatialcitizen-semarang/#">Home</Nav.Link>
+                <Nav.Link href="/spatialcitizen-semarang/#/map">Map</Nav.Link>
+                <Nav.Link href="/spatialcitizen-semarang/#/storytelling">Storytelling</Nav.Link>
+                <Nav.Link href="/spatialcitizen-semarang/#/about">About</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

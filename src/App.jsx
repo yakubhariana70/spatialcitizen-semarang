@@ -13,7 +13,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <HashRouter basename="/">
+      <HashRouter basename="/spatialcitizen-semarang">
         <Routes>
           <Route path="*" element={<Home />} />
           <Route path="/storytelling" element={<Storytelling />} />
