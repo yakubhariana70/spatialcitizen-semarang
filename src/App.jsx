@@ -16,9 +16,9 @@ function App() {
       <Router basename="spatialcitizen-semarang">
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/storytelling" element={<Storytelling />} />
-          <Route path="/map" element={<Map />} />
-          <Route path="/about" element={<About />} />
+          <Route path="spatialcitizen-semarang/storytelling" element={<Storytelling />} />
+          <Route path="spatialcitizen-semarang/map" element={<Map />} />
+          <Route path="spatialcitizen-semarang/about" element={<About />} />
         </Routes>
       </Router>
     </div>
