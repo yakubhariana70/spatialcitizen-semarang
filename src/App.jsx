@@ -13,7 +13,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Router basename="/">
+      <Router basename="/spatialcitizen-semarang">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/storytelling" element={<Storytelling />} />
