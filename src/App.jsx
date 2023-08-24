@@ -13,12 +13,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Router basename="spatialcitizen-semarang">
+      <Router basename="/">
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="spatialcitizen-semarang/storytelling" element={<Storytelling />} />
-          <Route path="spatialcitizen-semarang/map" element={<Map />} />
-          <Route path="spatialcitizen-semarang/about" element={<About />} />
+          <Route path="/storytelling" element={<Storytelling />} />
+          <Route path="/map" element={<Map />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Router>
     </div>
