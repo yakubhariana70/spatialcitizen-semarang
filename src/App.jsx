@@ -5,7 +5,7 @@ import Storytelling from "./pages/Storytelling/Storytelling";
 import About from "./pages/About/About";
 
 //|| LIBRARY
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // || STYLE
 import "./App.css";
