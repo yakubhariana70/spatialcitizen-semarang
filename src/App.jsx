@@ -13,9 +13,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="spatialcitizen-semarang">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/spatialcitizen-semarang" element={<Home />} />
           <Route path="/storytelling" element={<Storytelling />} />
           <Route path="/map" element={<Map />} />
           <Route path="/about" element={<About />} />
