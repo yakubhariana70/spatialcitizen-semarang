@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#mapbox-storytelling {
+  position: fixed;
+  top: 0;
+  pointer-events: none;
+}
+
+#story-section {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.chapter {
+  width: 100vw;
+  height: 100vh;
+  padding: 50px 50px;
+}
+
+.chapter-card {
+  width: 30rem;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+    #story-section {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+      }
+
+    .chapter {
+        flex-shrink: 0;
+        width: 100vw;
+        height: 100vh;
+        padding: 1rem;
+    }
+    .chapter-card {
+        top: 50vh;
+        width: 100%;
+        padding: 1rem;
+    }
+    .card-text {
+        font-size: 0.75rem;
+      }
+}

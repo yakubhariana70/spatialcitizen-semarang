@@ -1,0 +1,15 @@
+#mapbox-view {
+  height: 85vh;
+  width: 100%;
+}
+
+.custom-control {
+  position: relative;
+  display: flex;
+  margin-left: 95%;
+  flex-direction: column;
+}
+
+.custom-control > * {
+  margin: 0.5em;
+}

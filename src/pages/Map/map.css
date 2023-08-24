@@ -1,0 +1,26 @@
+#map-page {
+   height: 100vh;
+   width: 100vw;
+}
+
+#header-map {
+    height: 10vh;
+}
+
+#mapbox-section{
+    height: 85vh;
+    border: 1px solid darkblue;
+    padding: 0;
+}
+
+#graph-section {
+    height: 85vh;
+    border: 1px solid darkblue;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+#footer {
+    height: 5vh;
+}
+

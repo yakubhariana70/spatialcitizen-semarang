@@ -1,0 +1,32 @@
+#graph-view{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+#graph-toggle{
+    width: 100%;
+    border: 1px solid limegreen;
+}
+
+#active-county{
+    color: #29B7A4;
+    padding: 1em 2em;
+    background-color: white;
+    border: 1px solid limegreen;
+}
+
+#graph-container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.topic-section{
+    height: auto;
+    width: 100%;
+    scroll-margin: 150px;
+    border: 1px solid limegreen;
+}

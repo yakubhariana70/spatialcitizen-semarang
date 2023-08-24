@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2em;
+    font-size: 0.875em;
+}
+
+strong {
+    color: #29B7A4;
+}

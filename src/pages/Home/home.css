@@ -1,0 +1,37 @@
+#home-image {
+    background-image: url("../../assets/image/lawang-sewu-muhammad-guntur.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#home-content{
+    height: 100vh;
+}
+
+nav{
+    height: 10vh;
+}
+
+main{
+    display: flex;
+    height: 85vh;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+#hero-section{
+    width: 70%;
+    padding-left: 5em;
+}
+
+p{
+    font-size: 1.25em;
+}
+#button-cta > button {
+    margin-right: 1em;
+    padding: 0.5em;
+    border-radius: 0.4em;
+}
+
