@@ -1,4 +1,6 @@
 .button-toggle{
     display: flex !important;
+    flex-flow: row wrap;
+    width: 100%;
     justify-content: center;
 }

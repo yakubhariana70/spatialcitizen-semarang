@@ -10,3 +10,9 @@ footer {
 strong {
     color: #29B7A4;
 }
+
+@media screen and (max-width: 576px) {
+footer{
+    font-size: 0.5em;
+}
+  }
