@@ -16,9 +16,6 @@ const SpatialAnalyze = ({
   onChangePoiInPolygon,
 }) => {
   // || ANALISIS SPASIAL
-  useEffect(() => {
-    console.log("Analisis Spasial:", analizeActive);
-  }, [analizeActive]);
 
   const [poiFilter, setPoiFilter] = useState(null);
   const [tipeField, setTipeField] = useState(null);

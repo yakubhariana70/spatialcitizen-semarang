@@ -29,6 +29,22 @@ import asnIcon from "../../../assets/icon/Kependudukan/aparatur-negara.png";
 import peternakIcon from "../../../assets/icon/Kependudukan/peternak.png";
 import pensiunanIcon from "../../../assets/icon/Kependudukan/pensiunan.png";
 import pekerjaanLainIcon from "../../../assets/icon/Kependudukan/pekerjaan-lain.png";
+import usia04Icon from "../../../assets/icon/Kependudukan/Usia-04.svg";
+import usia59Icon from "../../../assets/icon/Kependudukan/Usia-59.svg";
+import usia1014Icon from "../../../assets/icon/Kependudukan/Usia-1014.svg";
+import usia1519Icon from "../../../assets/icon/Kependudukan/Usia-1519.svg";
+import usia2024Icon from "../../../assets/icon/Kependudukan/Usia-2024.svg";
+import usia2529Icon from "../../../assets/icon/Kependudukan/Usia-2529.svg";
+import usia3034Icon from "../../../assets/icon/Kependudukan/Usia-3034.svg";
+import usia3539Icon from "../../../assets/icon/Kependudukan/Usia-3539.svg";
+import usia4044Icon from "../../../assets/icon/Kependudukan/Usia-4044.svg";
+import usia4549Icon from "../../../assets/icon/Kependudukan/Usia-4549.svg";
+import usia5054Icon from "../../../assets/icon/Kependudukan/Usia-5054.svg";
+import usia5559Icon from "../../../assets/icon/Kependudukan/Usia-5559.svg";
+import usia6064Icon from "../../../assets/icon/Kependudukan/Usia-6064.svg";
+import usia6569Icon from "../../../assets/icon/Kependudukan/Usia-6569.svg";
+import usia7074Icon from "../../../assets/icon/Kependudukan/Usia-7074.svg";
+import usia75Icon from "../../../assets/icon/Kependudukan/Usia-75.svg";
 
 const KependudukanSection = ({
   demografiData,
@@ -313,6 +329,7 @@ const KependudukanSection = ({
             data={usia && usia[0]}
             label={"orang"}
             layer={"USIA 0-4 TAHUN"}
+            icon={usia04Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -322,6 +339,7 @@ const KependudukanSection = ({
             data={usia && usia[1]}
             label={"orang"}
             layer={"USIA 5-9 TAHUN"}
+            icon={usia59Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -331,6 +349,7 @@ const KependudukanSection = ({
             data={usia && usia[2]}
             label={"orang"}
             layer={"USIA 10-14 TAHUN"}
+            icon={usia1014Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -340,6 +359,7 @@ const KependudukanSection = ({
             data={usia && usia[3]}
             label={"orang"}
             layer={"USIA 15-19 TAHUN"}
+            icon={usia1519Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -349,6 +369,7 @@ const KependudukanSection = ({
             data={usia && usia[4]}
             label={"orang"}
             layer={"USIA 20-24 TAHUN"}
+            icon={usia2024Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -358,6 +379,7 @@ const KependudukanSection = ({
             data={usia && usia[5]}
             label={"orang"}
             layer={"USIA 25-29 TAHUN"}
+            icon={usia2529Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -367,6 +389,7 @@ const KependudukanSection = ({
             data={usia && usia[6]}
             label={"orang"}
             layer={"USIA 30-34 TAHUN"}
+            icon={usia3034Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -376,6 +399,7 @@ const KependudukanSection = ({
             data={usia && usia[7]}
             label={"orang"}
             layer={"USIA 35-39 TAHUN"}
+            icon={usia3539Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -385,6 +409,7 @@ const KependudukanSection = ({
             data={usia && usia[8]}
             label={"orang"}
             layer={"USIA 40-44 TAHUN"}
+            icon={usia4044Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -394,6 +419,7 @@ const KependudukanSection = ({
             data={usia && usia[9]}
             label={"orang"}
             layer={"USIA 45-49 TAHUN"}
+            icon={usia4549Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -403,6 +429,7 @@ const KependudukanSection = ({
             data={usia && usia[10]}
             label={"orang"}
             layer={"USIA 50-54 TAHUN"}
+            icon={usia5054Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -412,6 +439,7 @@ const KependudukanSection = ({
             data={usia && usia[11]}
             label={"orang"}
             layer={"USIA 55-59 TAHUN"}
+            icon={usia5559Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -421,6 +449,7 @@ const KependudukanSection = ({
             data={usia && usia[12]}
             label={"orang"}
             layer={"USIA 60-64 TAHUN"}
+            icon={usia6064Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -430,6 +459,7 @@ const KependudukanSection = ({
             data={usia && usia[13]}
             label={"orang"}
             layer={"USIA 65-69 TAHUN"}
+            icon={usia6569Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -439,6 +469,7 @@ const KependudukanSection = ({
             data={usia && usia[14]}
             label={"orang"}
             layer={"USIA 70-74 TAHUN"}
+            icon={usia7074Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}
@@ -448,6 +479,7 @@ const KependudukanSection = ({
             data={usia && usia[15]}
             label={"orang"}
             layer={"USIA 75 TAHUN KE ATAS"}
+            icon={usia75Icon}
             onChangeLayer={onChangeLayer}
             activeLayer={activeLayer}
             onChangeRank={setRankUsia}

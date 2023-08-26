@@ -29,8 +29,8 @@ const Map = () => {
         const poi_response = await fetch(poi);
         const poi_data = await poi_response.json();
         setPoiData(poi_data);
-        console.log("data demografi:", demo_data);
-        console.log("data poi:", poi_data);
+        // console.log("data demografi:", demo_data);
+        // console.log("data poi:", poi_data);
         // Membaca nilai initial state activeCounty dari data GeoJSON
         const initialCounty =
           demo_data.features[104].properties["DESA ATAU KELURAHAN"];

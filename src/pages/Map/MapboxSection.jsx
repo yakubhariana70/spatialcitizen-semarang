@@ -97,10 +97,6 @@ const MapboxSection = (props) => {
     setMapDimension(dimension);
   };
 
-  useEffect(() => {
-    console.log("dimensi: ", mapDimension);
-  }, [mapDimension]);
-
   const onFlyFunction = useCallback((location) => {
     mapRef.current?.flyTo({
       center: [location.longitude, location.latitude],
@@ -127,7 +123,6 @@ const MapboxSection = (props) => {
       };
       setMapDimension("2D");
       onFlyFunction(location);
-      console.log("onFlyFunction 2D");
     } else if (!analizeActive) {
       const location = {
         longitude: 110.4201,
@@ -139,7 +134,6 @@ const MapboxSection = (props) => {
       };
       setMapDimension("3D");
       onFlyFunction(location);
-      console.log("onFlyFunction 3D");
     }
   }, [analizeActive, onFlyFunction]);
 

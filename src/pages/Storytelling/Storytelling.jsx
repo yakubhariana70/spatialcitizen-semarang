@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from "react";
 import Map, { Layer, Source } from "react-map-gl";
 import { useInView } from "react-intersection-observer";
 import ChapterStory from "./ChapterStory";
+import NavigationBar from "../../components/NavigationBar";
 
 // || DATA
 import story from "../../data/chapter-story.jsx";
@@ -151,6 +152,11 @@ const Storytelling = () => {
 
   return (
     <div id="map-storytelling">
+      <header>
+        <nav>
+          <NavigationBar />
+        </nav>
+      </header>
       <section id="mapbox-storytelling">
         <Map
           ref={mapRef}

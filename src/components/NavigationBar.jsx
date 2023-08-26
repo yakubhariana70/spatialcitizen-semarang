@@ -7,7 +7,7 @@ const NavigationBar = () => {
     <div>
       <Navbar sticky="top" expand="lg">
         <Container fluid className="px-5">
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/spatialcitizen-semarang/#">
             <img alt="Logo" src={logo} width="auto" height="50" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

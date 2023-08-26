@@ -31,13 +31,13 @@ const Home = () => {
                   <div id="button-cta">
                     <Button
                       variant="success"
-                      href="spatialcitizen-semarang/#/storytelling"
+                      href="#/storytelling"
                     >
                       Explore Now
                     </Button>
                     <Button
                       variant="outline-success"
-                      href="spatialcitizen-semarang/#/about"
+                      href="#/about"
                     >
                       About
                     </Button>
