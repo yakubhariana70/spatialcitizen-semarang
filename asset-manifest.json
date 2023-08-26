@@ -1,25 +1,41 @@
 {
   "files": {
-    "main.css": "/spatialcitizen-semarang/static/css/main.e3814830.css",
-    "main.js": "/spatialcitizen-semarang/static/js/main.103421dd.js",
+    "main.css": "/spatialcitizen-semarang/static/css/main.75f7666d.css",
+    "main.js": "/spatialcitizen-semarang/static/js/main.9460df16.js",
     "static/js/483.53817c0f.chunk.js": "/spatialcitizen-semarang/static/js/483.53817c0f.chunk.js",
     "static/js/787.271ba87b.chunk.js": "/spatialcitizen-semarang/static/js/787.271ba87b.chunk.js",
     "static/media/poi-semarang.geojson": "/spatialcitizen-semarang/static/media/poi-semarang.87773fbafbd2ccba5df8.geojson",
     "static/media/lawang-sewu-muhammad-guntur.jpg": "/spatialcitizen-semarang/static/media/lawang-sewu-muhammad-guntur.75084dff004e6ef49599.jpg",
     "static/media/demografi-semarang.geojson": "/spatialcitizen-semarang/static/media/demografi-semarang.324807ff766191e47cbb.geojson",
     "static/media/spatialcitizen.svg": "/spatialcitizen-semarang/static/media/spatialcitizen.57e3a739c7f5645eb6a63a77c8dff45d.svg",
+    "static/media/Usia-6569.svg": "/spatialcitizen-semarang/static/media/Usia-6569.0c76925b70644164d5ef485afb25a78b.svg",
+    "static/media/Usia-3539.svg": "/spatialcitizen-semarang/static/media/Usia-3539.ef4daa16c3d7343f7c23f980eb7e4bd6.svg",
+    "static/media/Usia-5559.svg": "/spatialcitizen-semarang/static/media/Usia-5559.a369cc5fe8001d740ecdbf80078efb44.svg",
+    "static/media/Usia-59.svg": "/spatialcitizen-semarang/static/media/Usia-59.63234752aeca3b33e462d44a53d189ab.svg",
+    "static/media/Usia-6064.svg": "/spatialcitizen-semarang/static/media/Usia-6064.6cf0e35f9b1223e2edf414337e0c87d0.svg",
+    "static/media/Usia-2529.svg": "/spatialcitizen-semarang/static/media/Usia-2529.bdd6906cbd3b0c26fcbbb6eb31bde586.svg",
+    "static/media/Usia-3034.svg": "/spatialcitizen-semarang/static/media/Usia-3034.55f18a201d4741673bd8d8db9a707fff.svg",
+    "static/media/Usia-5054.svg": "/spatialcitizen-semarang/static/media/Usia-5054.7913918c506b88e3232875fd7e29dec8.svg",
+    "static/media/Usia-04.svg": "/spatialcitizen-semarang/static/media/Usia-04.29ce6be42ec711486ced16b0e36e4bf3.svg",
+    "static/media/Usia-4549.svg": "/spatialcitizen-semarang/static/media/Usia-4549.a52c13e83912a9965df1f3975a6999dd.svg",
+    "static/media/Usia-2024.svg": "/spatialcitizen-semarang/static/media/Usia-2024.cfce6e760eaf7612693eab0c1b0865fc.svg",
+    "static/media/Usia-1519.svg": "/spatialcitizen-semarang/static/media/Usia-1519.2455b2370ba79084d5880570038bc68f.svg",
     "static/media/3D.svg": "/spatialcitizen-semarang/static/media/3D.f8780592bbaa271b27559a63f512fffa.svg",
+    "static/media/Usia-4044.svg": "/spatialcitizen-semarang/static/media/Usia-4044.e51972be0dce3f94eed0eb71c4c84fe3.svg",
     "static/media/2D.svg": "/spatialcitizen-semarang/static/media/2D.7e7f7ba9b9a47c561411b1a539dbed14.svg",
+    "static/media/Usia-1014.svg": "/spatialcitizen-semarang/static/media/Usia-1014.f9c08935128f09a47818857db806e18d.svg",
+    "static/media/Usia-7074.svg": "/spatialcitizen-semarang/static/media/Usia-7074.c2fc84f8bad378fb961a809f9b0d69fe.svg",
+    "static/media/Usia-75.svg": "/spatialcitizen-semarang/static/media/Usia-75.44cec6fed0f87a07cdd5fd8b221d6f76.svg",
     "static/media/analisisspasial.svg": "/spatialcitizen-semarang/static/media/analisisspasial.c278e425e6c1891d206ebe63875444b3.svg",
     "index.html": "/spatialcitizen-semarang/index.html",
     "static/media/layer.svg": "/spatialcitizen-semarang/static/media/layer.e3843816f9e1b0cc5e4ba24cccf48b21.svg",
-    "main.e3814830.css.map": "/spatialcitizen-semarang/static/css/main.e3814830.css.map",
-    "main.103421dd.js.map": "/spatialcitizen-semarang/static/js/main.103421dd.js.map",
+    "main.75f7666d.css.map": "/spatialcitizen-semarang/static/css/main.75f7666d.css.map",
+    "main.9460df16.js.map": "/spatialcitizen-semarang/static/js/main.9460df16.js.map",
     "483.53817c0f.chunk.js.map": "/spatialcitizen-semarang/static/js/483.53817c0f.chunk.js.map",
     "787.271ba87b.chunk.js.map": "/spatialcitizen-semarang/static/js/787.271ba87b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3814830.css",
-    "static/js/main.103421dd.js"
+    "static/css/main.75f7666d.css",
+    "static/js/main.9460df16.js"
   ]
 }
