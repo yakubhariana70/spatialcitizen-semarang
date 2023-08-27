@@ -24,6 +24,7 @@ const Storytelling = () => {
   });
   //State untuk konfigurasi layer dalam peta
   const [viewLayer, setViewLayer] = useState(false);
+  const [layerStyle, setLayerStyle] = useState(null);
   const [layerOn, setLayerOn] = useState(null);
   // State untuk min-max value dari properti geoJSON
   const [minValue, setMinValue] = useState(0);
@@ -80,6 +81,12 @@ const Storytelling = () => {
   const { ref: sectionFive, inView: fiveVisible } = useInView({
     threshold: 0.8,
   });
+  const { ref: sectionSix, inView: sixVisible } = useInView({
+    threshold: 0.8,
+  });
+  const { ref: sectionSeven, inView: sevenVisible } = useInView({
+    threshold: 0.8,
+  });
 
   // Fungsi FlyTo
   const onFlyFunction = useCallback(
@@ -115,12 +122,18 @@ const Storytelling = () => {
       onFlyFunction(story.chapters[0]);
     } else if (twoVisible) {
       onFlyFunction(story.chapters[1]);
+      setLayerStyle("2D");
     } else if (threeVisible) {
       onFlyFunction(story.chapters[2]);
+      setLayerStyle("3D");
     } else if (fourVisible) {
       onFlyFunction(story.chapters[3]);
     } else if (fiveVisible) {
       onFlyFunction(story.chapters[4]);
+    } else if (sixVisible) {
+      onFlyFunction(story.chapters[5]);
+    } else if (sevenVisible) {
+      onFlyFunction(story.chapters[6]);
     }
   }, [
     oneVisible,
@@ -128,10 +141,22 @@ const Storytelling = () => {
     threeVisible,
     fourVisible,
     fiveVisible,
+    sixVisible,
+    sevenVisible,
     onFlyFunction,
   ]);
 
-  const layerStyle = {
+  const twoDimensionStyle = {
+    type: "fill",
+    className: "2D-style",
+    paint: {
+      "fill-color": "#29B7A4",
+      "fill-outline-color": "#1e1e1e",
+      "fill-opacity": inTransition ? 0 : 1,
+    },
+  };
+
+  const threeDimensionStyle = {
     type: "fill-extrusion",
     className: "3D-style",
     paint: {
@@ -165,15 +190,26 @@ const Storytelling = () => {
           mapStyle={story.style}
           mapboxAccessToken={story.accessToken}
         >
-          {viewLayer && (
-            <Source id="geojson-data" type="geojson" data={demografiData}>
-              <Layer
-                {...layerStyle}
-                id="demografi-layer"
-                source="geojson-data"
-              />
-            </Source>
-          )}
+          {viewLayer &&
+            layerStyle === "2D" && (
+                <Source id="geojson-data" type="geojson" data={demografiData}>
+                  <Layer
+                    {...twoDimensionStyle}
+                    id="demografi-layer"
+                    source="geojson-data"
+                  />
+                </Source>
+              )}
+          {viewLayer &&
+            layerStyle === "3D" && (
+                <Source id="geojson-data" type="geojson" data={demografiData}>
+                  <Layer
+                    {...threeDimensionStyle}
+                    id="demografi-layer"
+                    source="geojson-data"
+                  />
+                </Source>
+              )}
         </Map>
       </section>
       <div id="story-section">
@@ -190,8 +226,14 @@ const Storytelling = () => {
           <ChapterStory story={story.chapters[3]} />
         </section>
         <section className="chapter" ref={sectionFive}>
+          <ChapterStory story={story.chapters[4]} />
+        </section>
+        <section className="chapter" ref={sectionSix}>
+          <ChapterStory story={story.chapters[5]} />
+        </section>
+        <section className="chapter" ref={sectionSeven}>
           <ChapterStory
-            story={story.chapters[4]}
+            story={story.chapters[6]}
             buttonText="Go to Demographic Map"
           />
         </section>

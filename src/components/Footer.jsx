@@ -5,9 +5,9 @@ const Footer = () => {
     <footer>
       <div className="source-data">
         <strong>Data: </strong>
-        Semarang Demographic Data
+        Semarang Demographic Data 2022
       </div>
-      <div className="created-author">© Created by Yakub Hariana</div>
+      <div className="created-author">© Created by <a href="https://www.linkedin.com/in/yakubhariana/">Yakub Hariana</a></div>
     </footer>
   );
 };
