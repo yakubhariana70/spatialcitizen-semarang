@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/spatialcitizen-semarang/static/css/main.e4557766.css",
-    "main.js": "/spatialcitizen-semarang/static/js/main.97b109cf.js",
+    "main.css": "/spatialcitizen-semarang/static/css/main.f4b1e613.css",
+    "main.js": "/spatialcitizen-semarang/static/js/main.cd2d0f48.js",
     "static/js/483.53817c0f.chunk.js": "/spatialcitizen-semarang/static/js/483.53817c0f.chunk.js",
     "static/js/787.271ba87b.chunk.js": "/spatialcitizen-semarang/static/js/787.271ba87b.chunk.js",
     "static/media/poi-semarang.geojson": "/spatialcitizen-semarang/static/media/poi-semarang.87773fbafbd2ccba5df8.geojson",
     "static/media/lawang-sewu-muhammad-guntur.jpg": "/spatialcitizen-semarang/static/media/lawang-sewu-muhammad-guntur.75084dff004e6ef49599.jpg",
     "static/media/demografi-semarang.geojson": "/spatialcitizen-semarang/static/media/demografi-semarang.324807ff766191e47cbb.geojson",
+    "static/media/muhamad-guntur-hOalOOmFijo-unsplash.jpg": "/spatialcitizen-semarang/static/media/muhamad-guntur-hOalOOmFijo-unsplash.11821b8fa2a6619b64a8.jpg",
     "static/media/spatialcitizen.svg": "/spatialcitizen-semarang/static/media/spatialcitizen.57e3a739c7f5645eb6a63a77c8dff45d.svg",
     "static/media/Usia-6569.svg": "/spatialcitizen-semarang/static/media/Usia-6569.0c76925b70644164d5ef485afb25a78b.svg",
     "static/media/Usia-3539.svg": "/spatialcitizen-semarang/static/media/Usia-3539.ef4daa16c3d7343f7c23f980eb7e4bd6.svg",
@@ -29,13 +30,13 @@
     "static/media/analisisspasial.svg": "/spatialcitizen-semarang/static/media/analisisspasial.c278e425e6c1891d206ebe63875444b3.svg",
     "index.html": "/spatialcitizen-semarang/index.html",
     "static/media/layer.svg": "/spatialcitizen-semarang/static/media/layer.e3843816f9e1b0cc5e4ba24cccf48b21.svg",
-    "main.e4557766.css.map": "/spatialcitizen-semarang/static/css/main.e4557766.css.map",
-    "main.97b109cf.js.map": "/spatialcitizen-semarang/static/js/main.97b109cf.js.map",
+    "main.f4b1e613.css.map": "/spatialcitizen-semarang/static/css/main.f4b1e613.css.map",
+    "main.cd2d0f48.js.map": "/spatialcitizen-semarang/static/js/main.cd2d0f48.js.map",
     "483.53817c0f.chunk.js.map": "/spatialcitizen-semarang/static/js/483.53817c0f.chunk.js.map",
     "787.271ba87b.chunk.js.map": "/spatialcitizen-semarang/static/js/787.271ba87b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4557766.css",
-    "static/js/main.97b109cf.js"
+    "static/css/main.f4b1e613.css",
+    "static/js/main.cd2d0f48.js"
   ]
 }
