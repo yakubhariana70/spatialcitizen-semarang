@@ -19,5 +19,7 @@ strong {
 @media screen and (max-width: 576px) {
 footer{
     font-size: 10px;
+    padding-inline: 1em;
 }
+
   }

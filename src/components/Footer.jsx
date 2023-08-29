@@ -7,7 +7,7 @@ const Footer = () => {
         <strong>Data: </strong>
         Semarang Demographic Data 2022
       </div>
-      <div className="created-author">© Created by <a href="https://www.linkedin.com/in/yakubhariana/">Yakub Hariana</a></div>
+      <div className="created-author">© Developed by <a href="https://www.linkedin.com/in/yakubhariana/">Yakub Hariana</a></div>
     </footer>
   );
 };

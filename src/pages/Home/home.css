@@ -5,6 +5,15 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
+.home-photo-source {
+  position: absolute;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-color: white;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  margin: 1em;
+}
 
 #home-content {
   height: 100vh;
@@ -47,6 +56,11 @@ p {
     position: relative;
     top: 10vh;
     height: 35vh;
+  }
+  .home-photo-source {
+    bottom: 0;
+    right: 0;
+    font-size: 0.5em;
   }
   #home-content {
     height: 65vh;
@@ -138,7 +152,11 @@ p {
     top: 0;
     height: 100vh;
   }
-
+  .home-photo-source {
+    bottom: 0;
+    right: 0;
+    font-size: 0.5em;
+  }
   #home-content {
     height: 100vh;
   }

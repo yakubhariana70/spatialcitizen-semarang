@@ -11,7 +11,18 @@ const Home = () => {
     <div id="home-page">
       <Container fluid>
         <Row>
-          <Col xs={12} lg={4} id="home-image"></Col>
+          <Col xs={12} lg={4} id="home-image">
+            <div className="home-photo-source">
+              Photo by{" "}
+              <a href="https://unsplash.com/@madtur?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                Muhamad Guntur
+              </a>{" "}
+              on{" "}
+              <a href="https://unsplash.com/photos/_XfxFa-yjoY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                Unsplash
+              </a>
+            </div>
+          </Col>
           <Col xs={12} lg={8} id="home-content">
             <Row>
               <nav>
@@ -29,16 +40,10 @@ const Home = () => {
                     GIS.
                   </p>
                   <div id="button-cta">
-                    <Button
-                      variant="success"
-                      href="#/storytelling"
-                    >
+                    <Button variant="success" href="#/storytelling">
                       Explore Now
                     </Button>
-                    <Button
-                      variant="outline-success"
-                      href="#/about"
-                    >
+                    <Button variant="outline-success" href="#/about">
                       About
                     </Button>
                   </div>

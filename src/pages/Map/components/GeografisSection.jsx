@@ -7,7 +7,7 @@ import "./topicsection.css";
 
 //|| ICON
 import luasWilayahIcon from "../../../assets/icon/Geografis/luas-wilayah.png";
-import ketinggianTanahIcon from "../../../assets/icon/Geografis/ketinggian-tanah.png";
+// import ketinggianTanahIcon from "../../../assets/icon/Geografis/ketinggian-tanah.png";
 const GeografisSection = ({demografiData, activeCounty, activeLayer, onChangeLayer}) => {
   // State Data Kependudukan
   const [luasWilayah, setLuasWilayah] = useState(null);
@@ -37,14 +37,14 @@ const GeografisSection = ({demografiData, activeCounty, activeLayer, onChangeLay
         <TopicItem
           topicText={"Luas Wilayah"}
           data={luasWilayah && luasWilayah[0]}
-          label={"orang"}
+          label={"km2"}
           icon={luasWilayahIcon}
           layer={"LUAS WILAYAH (KM2)"}
           activeLayer={activeLayer}
           onChangeLayer={onChangeLayer}
           onChangeRank={setRankGeografis}
         />
-        <TopicItem
+        {/* <TopicItem
           topicText={"Ketinggian Tanah"}
           data={luasWilayah && luasWilayah[0]}
           label={"orang"}
@@ -53,7 +53,7 @@ const GeografisSection = ({demografiData, activeCounty, activeLayer, onChangeLay
           activeLayer={activeLayer}
           onChangeLayer={onChangeLayer}
           onChangeRank={setRankGeografis}
-        />
+        /> */}
         <RankChart
           demografiData={demografiData}
           activeCounty={activeCounty}

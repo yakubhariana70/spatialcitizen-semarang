@@ -13,7 +13,7 @@ var config = {
             id: 'slug-style-id',
             title: 'Halo, Selamat Datang di SpatialCitizen Semarang!',
             image: './path/to/image/source.png',
-            description: 'Umumnya kita melihat data populasi, jenis kelamin, usia, dan lain-lain disajikan dalam bentuk tabel atau infografis. Bagaimana jadinya jika kita melangkah sedikit lebih jauh dengan melihatnya dari sisi spasial. Halaman SpatialCitizen Semarang mengemas informasi demografi penduduk (citizen) Kota Semarang dari sisi geo-spasial. Memadukan data statistik, pemetaan 3D, dan cerita sederhana kita akan menengok dinamika kependudukan di Kota Semarang.',
+            description: 'Umumnya kita melihat data populasi, jenis kelamin, usia, dan lain-lain disajikan dalam bentuk tabel atau infografis. Bagaimana jadinya jika kita melangkah sedikit lebih jauh dengan melihatnya dari sisi spasial. Halaman SpatialCitizen Semarang mengemas informasi demografi penduduk (citizen) Kota Semarang dari sisi geo-spasial. Memadukan data statistik, pemetaan 3D, dan cerita sederhana kita akan menengok dinamika kependudukan di Kota Semarang. Swipe keatas jika menggunakan dekstop dan swipe kekiri jika menggunakan smartphone',
             location: {
                 longitude: 110.4201,
                 latitude: -7.11,
@@ -102,7 +102,7 @@ var config = {
             location: {
                 longitude: 110.4201,
                 latitude: -7.01,
-                pitch:45,
+                pitch:15,
                 bearing: 135,
                 zoom: 9.5,
                 duration: 3000
@@ -113,9 +113,9 @@ var config = {
         },
         {
             id: 'seven-identifier',
-            title: 'Agama dan Kepercayaan',
+            title: 'Next Step!',
             image: './path/to/image/source.png',
-            description: 'Demikian gambaran umum dari dinamika kependudukan di Kota Semarang.Semoga informasi yang diperoleh dapat memperkaya pemahaman Anda tentang dinamika kota ini. Selanjutnya silahkan lanjutkan perjalanan anda mengenal karakteristik penduduk di Kota Semarang melalui tombol berikut.',
+            description: 'Demikian gambaran umum dari dinamika kependudukan di Kota Semarang. Semoga informasi yang diperoleh dapat memperkaya pemahaman Anda tentang dinamika kota ini. Selanjutnya silahkan lanjutkan perjalanan anda mengenal karakteristik penduduk di Kota Semarang melalui tombol berikut.',
             location: {
                 longitude: 110.4201,
                 latitude: -7.01,

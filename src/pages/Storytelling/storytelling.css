@@ -41,6 +41,10 @@ header nav {
   padding: 1rem;
 }
 
+.card-text{
+  text-align: justify;
+}
+
 @media screen and (max-width: 576px) {
   #map-storytelling header {
     background-color: rgba(0, 0, 0, 0);

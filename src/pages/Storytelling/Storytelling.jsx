@@ -150,8 +150,8 @@ const Storytelling = () => {
     type: "fill",
     className: "2D-style",
     paint: {
-      "fill-color": "#29B7A4",
-      "fill-outline-color": "#1e1e1e",
+      "fill-color": "rgba(255, 255, 255, 0.5)",
+      "fill-outline-color": "#FFFFFF",
       "fill-opacity": inTransition ? 0 : 1,
     },
   };

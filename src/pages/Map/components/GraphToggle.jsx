@@ -13,7 +13,7 @@ const GraphToggle = ({ scrollToSection }) => {
   };
   return (
     <div>
-      <ButtonGroup className="button-toggle" aria-label="topic-navigation">
+      <ButtonGroup className="button-toggle shadow" aria-label="topic-navigation">
         <Button
           variant={activeToggle === "Kependudukan" ? "success" : "outline-success"}
           onClick={() => scrollFunction("Kependudukan", "kependudukan-section")}
